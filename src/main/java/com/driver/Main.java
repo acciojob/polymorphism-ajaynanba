@@ -11,7 +11,8 @@ public class Main {
         System.out.println(ans1);
         System.out.println(ans2);
     }
-    static class Product{
+    public static class Product{
+        int x, y, z;
         public int product(int x, int y) {
             return x*y;
         }
