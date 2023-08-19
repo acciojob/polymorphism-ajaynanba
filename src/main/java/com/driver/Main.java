@@ -7,7 +7,9 @@ public class Main {
         int ans = p.product(2,5);
         int ans1 = p.product(4,6,9);
         double ans2 = p.product(4.0,5.0);
-        System.out.println(ans + " " + ans1 + " " + ans2);
+        System.out.println(ans);
+        System.out.println(ans1);
+        System.out.println(ans2);
     }
     static class Product{
         public int product(int x, int y) {
